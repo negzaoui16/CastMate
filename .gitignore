@@ -1,0 +1,44 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# Environment files (STRICTLY IGNORED)
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Uploads & Media
+/uploads
+/media_temp
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests & Coverage
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.vscode/
+*.swp
+*.swo
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
